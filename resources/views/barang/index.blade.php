@@ -18,7 +18,7 @@
     <thead>
       <tr>
         <td rowspan="2">Nama Barang</td>
-        <td colspan="3">Stock</td>
+        <td colspan="3">Stock <!--Bulan--></td>
         <td rowspan="2">action</td>
       </tr>
       <tr>
