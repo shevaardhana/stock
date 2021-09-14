@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <a href="#" class="btn btn-primary btn-sm my-3">+ Tambah Data</a>
+  <table class="table table-bordered text-center">
+    <thead>
+      <tr>
+        <td rowspan="2">Nama Barang</td>
+        <td colspan="3">Stock</td>
+        <td rowspan="2">action</td>
+      </tr>
+      <tr>
+        <td>Masuk</td>
+        <td>keluar</td>
+        <td>Total</td>
+      </tr>
+    </thead>
+    <tbody>
+        
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
