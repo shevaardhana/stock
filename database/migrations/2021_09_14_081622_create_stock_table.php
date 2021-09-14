@@ -17,7 +17,6 @@ class CreateStockTable extends Migration
             $table->bigIncrements('id');
             $table->integer('masuk');
             $table->integer('keluar');
-            $table->integer('total');
             $table->timestamps();
         });
     }

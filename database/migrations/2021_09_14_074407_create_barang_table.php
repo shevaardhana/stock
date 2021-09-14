@@ -17,6 +17,7 @@ class CreateBarangTable extends Migration
             $table->bigIncrements('id');
             $table->string('nama_barang');
             $table->string('bulan');
+            $table->integer('total');
             $table->timestamps();
         });
     }
